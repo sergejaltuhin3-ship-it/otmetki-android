@@ -1,0 +1,24 @@
+User-agent: *
+Allow: /
+Allow: /auth
+Allow: /pricing
+Allow: /guide
+Allow: /about
+Allow: /install
+Disallow: /api/
+Disallow: /uploads/
+Disallow: /dashboard
+Disallow: /marks
+Disallow: /pvzs
+Disallow: /users
+Disallow: /schedule
+Disallow: /reports
+Disallow: /stats
+Disallow: /settings
+Disallow: /audit
+Disallow: /feedback
+Disallow: /my-schedule
+Disallow: /my-stats
+
+Sitemap: https://pvz-183912.ru/sitemap.xml
+Host: https://pvz-183912.ru
