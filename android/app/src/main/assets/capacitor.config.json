@@ -1,0 +1,55 @@
+{
+	"appId": "ru.pvz183912.otmetki",
+	"appName": "Отметки",
+	"webDir": "dist/public",
+	"server": {
+		"url": "https://pvz-183912.ru",
+		"cleartext": false,
+		"androidScheme": "https"
+	},
+	"android": {
+		"allowMixedContent": false,
+		"captureInput": true,
+		"webContentsDebuggingEnabled": false,
+		"backgroundColor": "#0a0a0f",
+		"overrideUserAgent": "OtmetkiApp/2.0 Android"
+	},
+	"ios": {
+		"contentInset": "automatic",
+		"allowsLinkPreview": false,
+		"scrollEnabled": true,
+		"backgroundColor": "#0a0a0f",
+		"overrideUserAgent": "OtmetkiApp/2.0 iOS",
+		"preferredContentMode": "mobile"
+	},
+	"plugins": {
+		"SplashScreen": {
+			"launchShowDuration": 2000,
+			"launchAutoHide": true,
+			"backgroundColor": "#0a0a0f",
+			"showSpinner": true,
+			"spinnerColor": "#667eea",
+			"androidSpinnerStyle": "small",
+			"androidScaleType": "CENTER_CROP",
+			"splashFullScreen": true,
+			"splashImmersive": true
+		},
+		"PushNotifications": {
+			"presentationOptions": [
+				"badge",
+				"sound",
+				"alert"
+			]
+		},
+		"Camera": {
+			"allowEditing": false
+		},
+		"Geolocation": {
+			"enableHighAccuracy": true
+		},
+		"StatusBar": {
+			"style": "DARK",
+			"backgroundColor": "#0a0a0f"
+		}
+	}
+}
